@@ -1,0 +1,47 @@
+{
+  "name": "droidarmor",
+  "version": "1.0.0",
+  "description": "The Open-Source Autonomous AI Mobile Agent & Fast ADB Automation CLI for Android",
+  "main": "core/src/index.js",
+  "type": "module",
+  "bin": {
+    "droidarmor": "./core/src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node core/src/cli/index.js",
+    "test": "node test/test_droidarmor.js",
+    "mcp": "node core/src/cli/index.js mcp"
+  },
+  "keywords": [
+    "android",
+    "adb",
+    "ai-agent",
+    "mobile-automation",
+    "mcp",
+    "claude-desktop",
+    "cursor",
+    "mobile-testing",
+    "self-healing-tests",
+    "qa",
+    "open-source"
+  ],
+  "author": "Amit Sharma <amitsharma9976@gmail.com> (https://github.com/1nsharma)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1nsharma-labs/droidarmor.git"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://polar.sh/1nsharma-labs"
+    },
+    {
+      "type": "upi",
+      "url": "upi://pay?pa=6393741171@upi&pn=Amit%20Sharma"
+    }
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
